@@ -1,0 +1,158 @@
+@import url("https://fonts.googleapis.com/css2?family=Public+Sans:wght@400;500;600;700;800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Avenir:wght@400&display=swap");
+
+
+:root {
+  /* fonts */
+  --heading-20-r: "Public Sans";
+  --font-inherit: inherit;
+  --font-ibm-plex-sans: "IBM Plex Sans";
+  --text-sm-regular: Poppins;
+  --body-1-regular: Avenir;
+
+  /* font sizes */
+  --font-size-5xl: 24px;
+  --font-size-15xl: 34px;
+  --font-size-mini: 15px;
+  --font-size-lg: 18px;
+  --heading-20-r-size: 20px;
+  --heading-48-b-size: 48px;
+  --text-sm-regular-size: 14px;
+  --heading-16-m-size: 16px;
+  --font-size-smi: 13px;
+  --heading-22-sb-size: 22px;
+  --font-size-xs: 12px;
+  --heading-30-b-size: 30px;
+  --font-size-2xs: 11px;
+
+  /* Colors */
+  --white: #fff;
+  --dark-borders-default: #ddd;
+  --color-gainsboro-100: #d9d9db;
+  --color-gainsboro-200: #d9d9d9;
+  --primary-red: #f00109;
+  --heading-b-color: #868687;
+  --dark-borders-active: #222;
+  --heading-h1-color: #1c1c1d;
+  --text-heading-dark: #101828;
+  --color-gray-100: rgba(134, 134, 135, 0.5);
+  --primary-yellow: #fdd100;
+  --color-black: #000;
+  --color-whitesmoke-100: #f6f6f7;
+  --gray-25: #ededed;
+  --color-whitesmoke-200: rgba(237, 237, 237, 0.5);
+  --color-khaki: #ffdc8a;
+  --red: #eb5757;
+  --green-2: #27ae60;
+  --color-lightblue: #c9e9ff;
+  --color-pink: #f8c6cc;
+  --color-navajowhite: #ffe3ac;
+  --gray-500: #556987;
+  --dark-texts-low: #717171;
+
+  /* Gaps */
+  --gap-5xs: 8px;
+  --gap-9xs: 4px;
+  --gap-base: 16px;
+  --gap-xs: 12px;
+  --gap-11xs: 2px;
+  --gap-7xs: 6px;
+
+  /* Paddings */
+  --padding-11xs: 2px;
+  --padding-5xs: 8px;
+  --padding-7xs: 6px;
+  --padding-base: 16px;
+  --padding-3xs: 10px;
+  --padding-2xl: 21px;
+  --padding-5xl: 24px;
+  --padding-9xs: 4px;
+  --padding-12xs: 1px;
+  --padding-xl: 20px;
+
+  /* Border radiuses */
+  --br-3xs: 10px;
+  --br-xl: 20px;
+  --br-base: 16px;
+  --br-9xs: 4px;
+  --br-7xs: 6px;
+  --br-sm: 14px;
+  --br-7xl: 26px;
+  --br-6xs: 7px;
+  --br-xs: 12px;
+  --br-mini: 15px;
+  --br-2xs: 11px;
+  --br-4xs: 9px;
+  --br-8xl: 27px;
+  --br-3xl: 22px;
+  --br-5xs: 8px;
+  --br-lgi: 19px;
+  --br-2xl: 21px;
+
+  /* Effects */
+  --shadow-shadow-default: 0px 0px 1px rgba(12, 26, 75, 0.1),
+    0px 4px 20px -2px rgba(50, 50, 71, 0.08);
+  --shadow-shadow-sm: 0px 0px 1px rgba(12, 26, 75, 0.24),
+    0px 3px 8px -1px rgba(50, 50, 71, 0.05);
+  --shadow-shadow-xl: 0px 0px 1px rgba(12, 26, 75, 0.1),
+    0px 20px 24px rgba(20, 37, 63, 0.06);
+  --shadow-shadow-lg: 0px 0px 1px rgba(12, 26, 75, 0.1),
+    0px 10px 16px rgba(20, 37, 63, 0.06);
+  --shadow-shadow-2xl: 0px 0px 1px rgba(12, 26, 75, 0.1),
+    0px 30px 40px rgba(20, 37, 63, 0.08);
+}
+
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  font-family: "Public Sans";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+::-webkit-scrollbar {
+  width: 6px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #fcd21c;
+  border-radius: 5px;
+}
+
+::-webkit-scrollbar-corner {
+  background: #000000;
+}
+
+.dark ::-webkit-scrollbar {
+  width: 8px;
+  background: #333333be;
+}
+
+.dark ::-webkit-scrollbar-thumb {
+  background: #666666c7;
+}
+
+.font-one {
+  font-family: "Public Sans";
+}
+.font-two {
+  font-family: "IBM Plex Sans";
+}
+.text-red {
+  color: red !important;
+}
+.bg-red {
+  background-color: red !important;
+}
+.bg-violet {
+  background-color: rgba(111, 23, 216, 0.15) !important;
+}
+.bg-pink {
+  background-color: #FFF2D8 !important;
+}

@@ -1,0 +1,28 @@
+.logo-icon{
+    width: 129.29px;
+    height: 58px;
+}
+.nav-link {
+    font-family: "Public Sans";
+}
+.log-in-btn {
+    font-family: "IBM Plex Sans";
+}
+.bg-gray {
+    background-color: #F6F6F7 !important;
+}
+.contact-btn{
+    font-size: 18px !important;
+    width: 26px;
+    height: 26px;
+    border-radius: 2px;
+}
+li .mb-2 {
+    font-size: 16px !important;
+}
+.btn{
+    text-transform: none !important;
+}
+.course-font{
+font-size: 13px;
+}
